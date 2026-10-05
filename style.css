@@ -1,0 +1,93 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Kavoon', Georgia, serif;
+  background-color: #000;
+  color: #fff;
+}
+
+#topBar {
+  height: 32px;
+  background: #000;
+  color: #ccc;
+  font-size: 12px;
+  line-height: 32px;
+  padding: 0 10px;
+  border-bottom: 1px solid #333;
+}
+
+#topBar a {
+  color: #fff;
+}
+
+#game {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+
+.inset {
+  border: 2px solid #54381e;
+}
+
+#sectionLeft {
+  width: 30%;
+  height: 100%;
+  position: relative;
+  background: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#bigCookie {
+  width: 256px;
+  height: 256px;
+  background: url('https://orteil.dashnet.org/cookieclicker/img/perfectCookie.png') no-repeat center center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+#sectionMiddle {
+  width: 45%;
+  height: 100%;
+  background: #222;
+  display: flex;
+  flex-direction: column;
+}
+
+#comments {
+  height: 60px;
+  padding: 10px;
+  background: #111;
+  text-align: center;
+}
+
+#rows {
+  flex: 1;
+  overflow-y: auto;
+}
+
+#sectionRight {
+  width: 25%;
+  height: 100%;
+  background: #1a1a1a;
+}
+
+#storeTitle {
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
