@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cookie Clicker Beta</title>
+  <!-- Link to your CSS file -->
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  
+  <!-- Link to standard fonts used by Cookie Clicker -->
+  <link href="https://fonts.googleapis.com/css?family=Kavoon&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:900&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div id="wrapper">
+    <div id="topBar">
+      <div><b>Cookie Clicker</b> &copy; <a href="http://orteil.dashnet.org" target="_blank">Orteil</a>, 2013 - hosted by <a href="http://dashnet.org" target="_blank">DashNet</a></div>
+    </div>
+
+    <div id="game">
+      <div id="javascriptError">An error occurred while loading the game.</div>
+
+      <div id="sectionLeft" class="inset">
+        <div id="cookieAnchor">
+          <div id="bigCookie"></div>
+          <div id="cookieNumbers"></div>
+        </div>
+      </div>
+
+      <div id="sectionMiddle" class="inset">
+        <div id="comments" class="inset">
+          <div id="commentsText"></div>
+        </div>
+        <div id="rows"></div>
+      </div>
+
+      <div id="sectionRight" class="inset">
+        <div id="store">
+          <div id="storeTitle">Store</div>
+          <div id="upgrades"></div>
+          <div id="buildings"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load your repository's JavaScript files -->
+  <script src="DungeonGen.js"></script>
+  <script src="Dungeons.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
